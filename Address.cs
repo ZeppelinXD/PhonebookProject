@@ -1,5 +1,5 @@
 namespace PhonebookApp
-{
+{   // getter-setter and constructor for address property alone because it has 2 properties
     public class Address
     {
         public string Street { get; set; }

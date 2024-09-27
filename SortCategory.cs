@@ -1,5 +1,6 @@
 namespace PhonebookApp
 {
+    // Sort Category 
     public enum SortCategory
     {
         FirstName,
