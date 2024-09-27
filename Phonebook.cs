@@ -8,6 +8,7 @@ namespace PhonebookApp
 {
     public class PhoneBook
     {
+        // Array to hold the 100 contacts
         public Contact[] contacts = new Contact[100];
         private int count = 0;
 
@@ -43,7 +44,7 @@ namespace PhonebookApp
             }
         }
 
-        // Method to display a single contact (Fancy Contact Card)
+        // Method to display a single contact 
         public static string Display(Contact c)
         {
             return $@"
